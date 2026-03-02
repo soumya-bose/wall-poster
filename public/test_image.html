@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <img id="testImage" src="new_mockup.jpg" style="max-width: none;">
+    <script>
+        const img = document.getElementById('testImage');
+        img.onload = () => {
+            console.log('DIMENSIONS:', img.naturalWidth, img.naturalHeight);
+        };
+    </script>
+</body>
+</html>
